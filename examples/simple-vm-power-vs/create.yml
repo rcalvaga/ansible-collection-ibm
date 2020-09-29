@@ -11,7 +11,7 @@
     processors: "0.25"
     memory: "2"
     pi_cloud_instance_id: "11956c6d-f7e8-4120-a403-14428405d1fe"
-    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0eZ4uNSH6rtxNM7MagrBtxwlASw0iKcxDdXq9eNu93xDpsvxdn6xE/JESlIHhf9/45oLw9AKpu/MZYwqQ0O+uedwgtLvorv++fyXI36cls4xmUCuNnEhoK1aXh26N+V+lxejqF3DJhMKHYprQCnyl/8RWkWIFc2Jo60ACZ98MY4rRHgBP/0t1tqmb0I4IdBaYLctVIdv16gYJ5zqGYKeJBMG7XtgkrtOeacVoArrmjHY6n2cNgE5jLt9n9MyyGLjzq1agIpwwsWJGfhzqo2I98UhGWtUlD2UeNHbuJZmbXeyibuoV7RhDZg9LafkOXOTojjZc9rUrd8BChoHhbW3X anil@Anils-MacBook-Pro.local"
+    ssh_public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC8IJHcoolmbMr/+NMB79CI1v6yqM1Pl1OU5KQn8BwSH+0MRgZUAq6WyuRTP+K/dy0yy7fgdQwxpUa2SfW4eFtC88W5eGjAdW5+uv912FiLOHvTXD6BLdCoL4/aMgdPjrxF84zbJjhxC1CI/B60Ky979nITn4UJhB+BMm4JQ+inswtCUHr6BvLynNhRDJifV0gsQagrwyQxVRK1HuMFcnhTbZVpVLnywguM/GcJ6/uxD/vZwZX2ZltsyK2iGXD0w7EG1wCB0rL96tcxZg30YkGiTLcp3J0i5dtecDfkGcIQwx31Y7G3cuUb0T3wtTXnaO/EnbHgzEw9e4gBu9dnUEQ029LWzzP9JU0A0zyldgyD3wxV3g6/h5DZvsrz9xTK7Iuo+HWFQ/ge3v88skqVrWZtnqA+mvRjdrBbWI/bcBo2KQ8mFM5SCzGeg5rDne652Mnldw3UA8h2rBHm+eXnC95URv6qfLdTenaye7c9P4mmntKeF0RRBNmLQRe4UNGwDRtlzg2eaRWGDPDnR0W+s/VLDvvVRkvSKF59gGVRY8t5alpXMMUQwPqoelzzeVcsQ5xPkfHnetw5QUd65i+3X9WtI4bM3wccuBHxVehNOHM1rFxoj9KP4DBgKHEE3xTegZqX1yql2NaxEwBOXIfuh3xWyk4BbuatiNY8B6AiukOzkQ=="
   tasks:
     - name: Check for existing SSH Key
       ibm_pi_key_info:
