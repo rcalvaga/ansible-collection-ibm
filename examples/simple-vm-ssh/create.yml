@@ -3,11 +3,8 @@
   hosts: localhost
   collections:
    - ibm.cloudcollection
-  tasks:
-    - name: Fetch the variables from var file
-      include_vars:
-        file: vars.yml
-  
+   
+  tasks: 
     - name: Configure VPC
       ibm_is_vpc:
         name: "{{ name_prefix }}-vpc"
